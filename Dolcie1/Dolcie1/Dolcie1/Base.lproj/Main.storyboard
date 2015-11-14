@@ -20,7 +20,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lf-Ej-IWm">
                                 <rect key="frame" x="41" y="33" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Maps"/>
                                 <connections>
                                     <segue destination="dDA-JK-APX" kind="show" identifier="MaintoMaps" id="dJx-UD-Lou"/>
                                 </connections>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="283" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Maps-->
         <scene sceneID="np1-cP-Nt9">
             <objects>
-                <viewController id="dDA-JK-APX" sceneMemberID="viewController">
+                <viewController title="Maps" id="dDA-JK-APX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UqS-aE-E0T"/>
                         <viewControllerLayoutGuide type="bottom" id="44J-q2-gtD"/>
@@ -46,13 +46,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQc-sw-K3g">
-                                <rect key="frame" x="20" y="66" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the maps page." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQc-sw-K3g">
+                                <rect key="frame" x="20" y="66" width="317" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1B-h2-pY7">
+                                <rect key="frame" x="54" y="205" width="105" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Chipotle"/>
+                                <connections>
+                                    <segue destination="BTS-x4-UVB" kind="show" id="JFM-1h-FPN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,6 +69,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHV-Xu-X5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="938" y="349"/>
+        </scene>
+        <!--Foods-->
+        <scene sceneID="CMb-9p-fNo">
+            <objects>
+                <viewController title="Foods" id="BTS-x4-UVB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="abi-fF-4Sr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jlg-IQ-yN4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gB9-SK-S1l">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86e-t8-zD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="1088"/>
         </scene>
     </scenes>
 </document>

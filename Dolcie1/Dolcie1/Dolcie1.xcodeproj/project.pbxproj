@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F6291BF7BBBF0041E30C /* MapViewController.swift */; };
+		A117F62C1BF7C0200041E30C /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F62B1BF7C0200041E30C /* FoodsViewController.swift */; };
+		A117F62E1BF7C2340041E30C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A117F62D1BF7C2330041E30C /* Podfile */; };
 		A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */; };
 		A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF91BF7B886000A22BE /* ViewController.swift */; };
 		A1B6FAFD1BF7B886000A22BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6FAFB1BF7B886000A22BE /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		A117F6291BF7BBBF0041E30C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A117F62B1BF7C0200041E30C /* FoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		A117F62D1BF7C2330041E30C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = Dolcie1/Podfile; sourceTree = "<group>"; };
 		A1B6FAF41BF7B886000A22BE /* Dolcie1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolcie1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B6FAF91BF7B886000A22BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		A1B6FAEB1BF7B886000A22BE = {
 			isa = PBXGroup;
 			children = (
+				A117F62D1BF7C2330041E30C /* Podfile */,
 				A1B6FAF61BF7B886000A22BE /* Dolcie1 */,
 				A1B6FB0B1BF7B887000A22BE /* Dolcie1Tests */,
 				A1B6FB161BF7B887000A22BE /* Dolcie1UITests */,
@@ -102,6 +107,7 @@
 				A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */,
 				A1B6FAF91BF7B886000A22BE /* ViewController.swift */,
 				A1B6FAFB1BF7B886000A22BE /* Main.storyboard */,
+				A117F62B1BF7C0200041E30C /* FoodsViewController.swift */,
 				A117F6291BF7BBBF0041E30C /* MapViewController.swift */,
 				A1B6FAFE1BF7B886000A22BE /* Assets.xcassets */,
 				A1B6FB001BF7B886000A22BE /* LaunchScreen.storyboard */,
@@ -234,6 +240,7 @@
 			files = (
 				A1B6FB021BF7B886000A22BE /* LaunchScreen.storyboard in Resources */,
 				A1B6FAFF1BF7B886000A22BE /* Assets.xcassets in Resources */,
+				A117F62E1BF7C2340041E30C /* Podfile in Resources */,
 				A1B6FAFD1BF7B886000A22BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */,
 				A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */,
+				A117F62C1BF7C0200041E30C /* FoodsViewController.swift in Sources */,
 				A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
