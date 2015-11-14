@@ -1,14 +1,14 @@
 //
-//  FirstViewController.swift
-//  Diabetes101
+//  ViewController.swift
+//  Dolcie
 //
 //  Created by Caroline Win on 11/14/15.
-//  Copyright © 2015 Caroline Win. All rights reserved.
+//  Copyright © 2015 MAC. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

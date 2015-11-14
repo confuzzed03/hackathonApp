@@ -1,15 +1,15 @@
 //
-//  Diabetes101Tests.swift
-//  Diabetes101Tests
+//  DolcieTests.swift
+//  DolcieTests
 //
 //  Created by Caroline Win on 11/14/15.
-//  Copyright © 2015 Caroline Win. All rights reserved.
+//  Copyright © 2015 MAC. All rights reserved.
 //
 
 import XCTest
-@testable import Diabetes101
+@testable import Dolcie
 
-class Diabetes101Tests: XCTestCase {
+class DolcieTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

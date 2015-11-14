@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A117F59F1BF7974B0041E30C"
-               BuildableName = "Diabetes101.app"
-               BlueprintName = "Diabetes101"
-               ReferencedContainer = "container:Diabetes101.xcodeproj">
+               BlueprintIdentifier = "A117F5CD1BF79E650041E30C"
+               BuildableName = "Dolcie.app"
+               BlueprintName = "Dolcie"
+               ReferencedContainer = "container:Dolcie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A117F5B51BF7974B0041E30C"
-               BuildableName = "Diabetes101Tests.xctest"
-               BlueprintName = "Diabetes101Tests"
-               ReferencedContainer = "container:Diabetes101.xcodeproj">
+               BlueprintIdentifier = "A117F5E41BF79E650041E30C"
+               BuildableName = "DolcieTests.xctest"
+               BlueprintName = "DolcieTests"
+               ReferencedContainer = "container:Dolcie.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A117F59F1BF7974B0041E30C"
-            BuildableName = "Diabetes101.app"
-            BlueprintName = "Diabetes101"
-            ReferencedContainer = "container:Diabetes101.xcodeproj">
+            BlueprintIdentifier = "A117F5CD1BF79E650041E30C"
+            BuildableName = "Dolcie.app"
+            BlueprintName = "Dolcie"
+            ReferencedContainer = "container:Dolcie.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A117F59F1BF7974B0041E30C"
-            BuildableName = "Diabetes101.app"
-            BlueprintName = "Diabetes101"
-            ReferencedContainer = "container:Diabetes101.xcodeproj">
+            BlueprintIdentifier = "A117F5CD1BF79E650041E30C"
+            BuildableName = "Dolcie.app"
+            BlueprintName = "Dolcie"
+            ReferencedContainer = "container:Dolcie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A117F59F1BF7974B0041E30C"
-            BuildableName = "Diabetes101.app"
-            BlueprintName = "Diabetes101"
-            ReferencedContainer = "container:Diabetes101.xcodeproj">
+            BlueprintIdentifier = "A117F5CD1BF79E650041E30C"
+            BuildableName = "Dolcie.app"
+            BlueprintName = "Dolcie"
+            ReferencedContainer = "container:Dolcie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
