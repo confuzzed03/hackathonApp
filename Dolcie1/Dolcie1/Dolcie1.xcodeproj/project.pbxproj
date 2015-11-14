@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F6291BF7BBBF0041E30C /* MapViewController.swift */; };
 		A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */; };
 		A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF91BF7B886000A22BE /* ViewController.swift */; };
 		A1B6FAFD1BF7B886000A22BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6FAFB1BF7B886000A22BE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A117F6291BF7BBBF0041E30C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A1B6FAF41BF7B886000A22BE /* Dolcie1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolcie1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B6FAF91BF7B886000A22BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */,
 				A1B6FAF91BF7B886000A22BE /* ViewController.swift */,
 				A1B6FAFB1BF7B886000A22BE /* Main.storyboard */,
+				A117F6291BF7BBBF0041E30C /* MapViewController.swift */,
 				A1B6FAFE1BF7B886000A22BE /* Assets.xcassets */,
 				A1B6FB001BF7B886000A22BE /* LaunchScreen.storyboard */,
 				A1B6FB031BF7B886000A22BE /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */,
+				A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */,
 				A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				A1B6FB1E1BF7B887000A22BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B6FB1F1BF7B887000A22BE /* Build configuration list for PBXNativeTarget "Dolcie1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				A1B6FB211BF7B887000A22BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B6FB221BF7B887000A22BE /* Build configuration list for PBXNativeTarget "Dolcie1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				A1B6FB241BF7B887000A22BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
