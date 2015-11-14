@@ -1,0 +1,13 @@
+PODS:
+  - GoogleMaps (1.10.5)
+  - SwiftHTTP (1.0.2)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - SwiftHTTP (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  GoogleMaps: da51c62c338c2d9c47cdad470a0d1e0e4b8544e4
+  SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
+
+COCOAPODS: 0.39.0

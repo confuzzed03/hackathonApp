@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F6291BF7BBBF0041E30C /* MapViewController.swift */; };
-		A117F62C1BF7C0200041E30C /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F62B1BF7C0200041E30C /* FoodsViewController.swift */; };
-		A117F62E1BF7C2340041E30C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A117F62D1BF7C2330041E30C /* Podfile */; };
+		7C143CC3587D784898949CAC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF0E7C809F7F622D3E350D0 /* Pods.framework */; };
+		A117F6411BF7D8080041E30C /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F6401BF7D8080041E30C /* MapsViewController.swift */; };
+		A117F6431BF7D8710041E30C /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117F6421BF7D8710041E30C /* FoodsViewController.swift */; };
 		A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */; };
 		A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6FAF91BF7B886000A22BE /* ViewController.swift */; };
 		A1B6FAFD1BF7B886000A22BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6FAFB1BF7B886000A22BE /* Main.storyboard */; };
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A117F6291BF7BBBF0041E30C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		A117F62B1BF7C0200041E30C /* FoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
-		A117F62D1BF7C2330041E30C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = Dolcie1/Podfile; sourceTree = "<group>"; };
+		0BF0E7C809F7F622D3E350D0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5E07FCC82226CE40B60A9C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A117F6401BF7D8080041E30C /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		A117F6421BF7D8710041E30C /* FoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
 		A1B6FAF41BF7B886000A22BE /* Dolcie1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolcie1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B6FAF91BF7B886000A22BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		A1B6FB131BF7B887000A22BE /* Dolcie1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolcie1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B6FB171BF7B887000A22BE /* Dolcie1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolcie1UITests.swift; sourceTree = "<group>"; };
 		A1B6FB191BF7B887000A22BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA74D72EE6AA44CF272D4245 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C143CC3587D784898949CAC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,14 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B8BB0004CA116240C5EB07E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF0E7C809F7F622D3E350D0 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1B6FAEB1BF7B886000A22BE = {
 			isa = PBXGroup;
 			children = (
-				A117F62D1BF7C2330041E30C /* Podfile */,
 				A1B6FAF61BF7B886000A22BE /* Dolcie1 */,
 				A1B6FB0B1BF7B887000A22BE /* Dolcie1Tests */,
 				A1B6FB161BF7B887000A22BE /* Dolcie1UITests */,
 				A1B6FAF51BF7B886000A22BE /* Products */,
+				DC1436C4D7C8C1C76393A501 /* Pods */,
+				3B8BB0004CA116240C5EB07E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +118,9 @@
 			children = (
 				A1B6FAF71BF7B886000A22BE /* AppDelegate.swift */,
 				A1B6FAF91BF7B886000A22BE /* ViewController.swift */,
+				A117F6401BF7D8080041E30C /* MapsViewController.swift */,
+				A117F6421BF7D8710041E30C /* FoodsViewController.swift */,
 				A1B6FAFB1BF7B886000A22BE /* Main.storyboard */,
-				A117F62B1BF7C0200041E30C /* FoodsViewController.swift */,
-				A117F6291BF7BBBF0041E30C /* MapViewController.swift */,
 				A1B6FAFE1BF7B886000A22BE /* Assets.xcassets */,
 				A1B6FB001BF7B886000A22BE /* LaunchScreen.storyboard */,
 				A1B6FB031BF7B886000A22BE /* Info.plist */,
@@ -134,6 +146,15 @@
 			path = Dolcie1UITests;
 			sourceTree = "<group>";
 		};
+		DC1436C4D7C8C1C76393A501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E07FCC82226CE40B60A9C /* Pods.debug.xcconfig */,
+				BA74D72EE6AA44CF272D4245 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B6FB1C1BF7B887000A22BE /* Build configuration list for PBXNativeTarget "Dolcie1" */;
 			buildPhases = (
+				A3C16EBCE7D0571DCC3E6624 /* Check Pods Manifest.lock */,
 				A1B6FAF01BF7B886000A22BE /* Sources */,
 				A1B6FAF11BF7B886000A22BE /* Frameworks */,
 				A1B6FAF21BF7B886000A22BE /* Resources */,
+				6E49CE638CD328BC9D858D9C /* Embed Pods Frameworks */,
+				7DF22C1D124651C983DD719B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +264,6 @@
 			files = (
 				A1B6FB021BF7B886000A22BE /* LaunchScreen.storyboard in Resources */,
 				A1B6FAFF1BF7B886000A22BE /* Assets.xcassets in Resources */,
-				A117F62E1BF7C2340041E30C /* Podfile in Resources */,
 				A1B6FAFD1BF7B886000A22BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,15 +284,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E49CE638CD328BC9D858D9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF22C1D124651C983DD719B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C16EBCE7D0571DCC3E6624 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1B6FAF01BF7B886000A22BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1B6FAFA1BF7B886000A22BE /* ViewController.swift in Sources */,
-				A117F62A1BF7BBBF0041E30C /* MapViewController.swift in Sources */,
-				A117F62C1BF7C0200041E30C /* FoodsViewController.swift in Sources */,
 				A1B6FAF81BF7B886000A22BE /* AppDelegate.swift in Sources */,
+				A117F6431BF7D8710041E30C /* FoodsViewController.swift in Sources */,
+				A117F6411BF7D8080041E30C /* MapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,19 +480,24 @@
 		};
 		A1B6FB1D1BF7B887000A22BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5E07FCC82226CE40B60A9C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dolcie1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dolcie1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A1B6FB1E1BF7B887000A22BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA74D72EE6AA44CF272D4245 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dolcie1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dolcie1;

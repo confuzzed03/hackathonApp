@@ -37,7 +37,7 @@
         <!--Maps-->
         <scene sceneID="np1-cP-Nt9">
             <objects>
-                <viewController title="Maps" id="dDA-JK-APX" sceneMemberID="viewController">
+                <viewController title="Maps" id="dDA-JK-APX" customClass="MapsViewController" customModule="Dolcie1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UqS-aE-E0T"/>
                         <viewControllerLayoutGuide type="bottom" id="44J-q2-gtD"/>
@@ -56,7 +56,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1B-h2-pY7">
                                 <rect key="frame" x="54" y="205" width="105" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Chipotle"/>
+                                <state key="normal" title="McDonalds"/>
                                 <connections>
                                     <segue destination="BTS-x4-UVB" kind="show" id="JFM-1h-FPN"/>
                                 </connections>
@@ -73,7 +73,7 @@
         <!--Foods-->
         <scene sceneID="CMb-9p-fNo">
             <objects>
-                <viewController title="Foods" id="BTS-x4-UVB" sceneMemberID="viewController">
+                <viewController title="Foods" id="BTS-x4-UVB" customClass="FoodsViewController" customModule="Dolcie1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="abi-fF-4Sr"/>
                         <viewControllerLayoutGuide type="bottom" id="Jlg-IQ-yN4"/>
@@ -81,6 +81,16 @@
                     <view key="view" contentMode="scaleToFill" id="gB9-SK-S1l">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaM-A3-lPv">
+                                <rect key="frame" x="110" y="83" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="incrementCounter:" destination="BTS-x4-UVB" eventType="touchUpInside" id="bOl-1p-hFI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
